@@ -1,0 +1,29 @@
+
+/** Styling af filtrering på shoppen **/
+.prdctfltr_checkboxes {
+    font-family: 'Montserrat' !important;
+}
+
+span.prdctfltr_regular_title {
+    font-family: 'Barlow Condensed' !important;
+		font-size: 20px;
+		font-weight: 500 !important;
+}
+
+/** Styling af pris-filtrering på shoppen **/
+.pf_rngstyle_html5 .irs-bar {
+    border-top: 1px solid #3b5998;
+    border-bottom: 1px solid #3b5998;
+    background: linear-gradient(to top, #123153 0%, #3b5998 100%);
+}
+
+.pf_rngstyle_html5 .irs-from, .pf_rngstyle_html5 .irs-to, .pf_rngstyle_html5 .irs-single {
+    color: #fff;
+    background: #123153;
+}
+
+
+/**Responsive filter 1 kolonne**/
+.prdctfltr_wc.prdctfltr_wc_regular.prdctfltr_woocommerce.pf_arrow .prdctfltr_woocommerce_ordering .prdctfltr_filter, .prdctfltr_wc.prdctfltr_wc_regular.prdctfltr_woocommerce.pf_default .prdctfltr_woocommerce_ordering .prdctfltr_filter, .prdctfltr_wc.prdctfltr_wc_regular.prdctfltr_woocommerce.pf_select .prdctfltr_woocommerce_ordering .prdctfltr_filter, .prdctfltr_wc.prdctfltr_wc_regular.prdctfltr_woocommerce.pf_fullscreen .prdctfltr_woocommerce_ordering .prdctfltr_filter {
+    width: 100% !important;
+}
